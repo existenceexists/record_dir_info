@@ -40,7 +40,7 @@ def main():
 	"""Main function of the script. Parse command line arguments, check them, read input csv file correct it and write the corrected csv rows into output csv file."""
 	print "initializing application RecordDirInfo"
 	recordfs = record_dir_info.RecordDirInfo()
-	print "recording is in progress ..."
+	print "recording is in progress ... this may take a long time, hours or even days, you can terminate the process e.g. by closing the terminal window"
 	recordfs.run()
 	print "success, recording finished succesfully"
 	sys.exit(0)
